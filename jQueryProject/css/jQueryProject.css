@@ -1,0 +1,51 @@
+﻿/* Body */
+body {
+    margin: 0;
+    background: #999;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* container id & content class */
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1em;
+    padding: 0 .5em;
+    color: #fff;
+    height: 900px;
+}
+
+.content {
+    background: #555;
+    border: 2px solid #000;
+    align-self: center;
+    padding: 1em;
+    height: 80%;
+}
+
+p:not(#hide):not(#demo) { /* styles all "p" elements that are not "p#hide" or "p#demo" */
+    cursor: pointer;
+}
+
+.class, #demo {
+    font-weight: bolder;
+}
+
+/* Form */
+input[type=text], input[type=number] {
+    width: 97%;
+    padding: .5em .25em;
+}
+
+input[type=radio], input[type=submit] {
+    cursor: pointer;
+}
+
+input[type=submit] {
+    padding: .5em;
+}
