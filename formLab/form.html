@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Frontend Form Project</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script defer src="js/form.js"></script>
+</head>
+
+<body>
+    <form name="form" onsubmit="return validation()">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <label for="email">Email</label>
+        <input type="text" name="email" pattern="^([\S]{1,}[@](([\S]{1,}[\.])?){1,}[a-z]{1,5}[\.][a-z]{1,3})$">
+        <label for="age">Age</label>
+        <input type="number" name="age">
+
+        <input type="submit" value="Submit">
+</body>
+
+</html>
