@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <!-- sales2.html This describes pop sales form page which uses Ajax and the
+         zip code to fill in the city and state of the customer's address -->
+    <title>Pop Sales Form with jQuery (Ajax) </title>
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/JavaScript" src="sales2.js"> </script>
+</head>
+
+<body>
+    <h2>Welcome to IHCC Pop Sales </h2>
+    <form name="contact" method="post">
+        <fieldset>
+            <legend>Pop Sales Information</legend>
+            <label>First Name</label>
+            <input type="text" name="firstname" id="firstname" size="30" /><br />
+            <label>Last Name</label>
+            <input type="text" name="lastname" id="lastname" size="30" /><br />
+            <label>Zip Code</label>
+            <input type="text" name="zip" size="10" id="zip" /><br />
+            <label>City</label>
+            <input type="text" name="city" id="city" size="30" /><br />
+            <label>State</label>
+            <input type="text" name="state" id="state" size="30" /><br />
+            <label></label>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear Order Form" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
